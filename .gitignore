@@ -1,0 +1,6 @@
+secrets/
+*.log
+mihomo-codex.yaml
+node_modules/
+.DS_Store
+coverage/
