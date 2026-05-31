@@ -1,0 +1,18 @@
+{
+  "node_name": "tokyo",
+  "server_ip": "203.0.113.10",
+  "vless": {
+    "port": 443,
+    "uuid": "00000000-0000-4000-8000-000000000001",
+    "flow": "xtls-rprx-vision",
+    "server_name": "www.microsoft.com",
+    "public_key": "example-public-key",
+    "short_id": "0123456789abcdef"
+  },
+  "hysteria2": {
+    "port": 8443,
+    "password": "example-password",
+    "sni": "tokyo.codex-node.local",
+    "skip_cert_verify": true
+  }
+}
