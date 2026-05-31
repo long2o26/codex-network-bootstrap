@@ -1,0 +1,18 @@
+{
+  "node_name": "singapore",
+  "server_ip": "203.0.113.20",
+  "vless": {
+    "port": 443,
+    "uuid": "00000000-0000-4000-8000-000000000002",
+    "flow": "xtls-rprx-vision",
+    "server_name": "www.microsoft.com",
+    "public_key": "example-public-key",
+    "short_id": "fedcba9876543210"
+  },
+  "hysteria2": {
+    "port": 8443,
+    "password": "example-password",
+    "sni": "singapore.codex-node.local",
+    "skip_cert_verify": true
+  }
+}
