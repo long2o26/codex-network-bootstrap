@@ -1,0 +1,22 @@
+{
+  "name": "codex-network-bootstrap",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Self-hosted network bootstrap scripts for stable Codex, OpenAI, and GitHub developer workflows.",
+  "type": "module",
+  "scripts": {
+    "test": "bash -n server/setup-node.sh scripts/deploy-node.sh && node tests/generate-mihomo-config.test.mjs"
+  },
+  "keywords": [
+    "codex",
+    "openai",
+    "mihomo",
+    "xray",
+    "hysteria2",
+    "developer-tools"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  }
+}
